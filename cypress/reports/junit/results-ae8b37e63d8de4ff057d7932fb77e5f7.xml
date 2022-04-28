@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="69.7440" tests="11" failures="9">
+  <testsuite name="Root Suite" timestamp="2022-04-05T07:05:12" tests="0" file="cypress/integration/basic_tests.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Basic tests" timestamp="2022-04-05T07:05:12" tests="2" time="0.0000" failures="0">
+    <testcase name="Basic tests Can visist localhost" time="6.5740" classname="Can visist localhost">
+    </testcase>
+    <testcase name="Basic tests Finds the progressBar" time="4.6180" classname="Finds the progressBar">
+    </testcase>
+  </testsuite>
+  <testsuite name="Hardware Form" timestamp="2022-04-05T07:05:42" tests="3" time="13.3400" failures="3">
+    <testcase name="Basic tests Hardware Form Renders the hardware form correctly" time="0.0000" classname="Renders the hardware form correctly">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `[data-cy=playbookNext]`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `[data-cy=playbookNext]`, but never found it.
+    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/integration/basic_tests.js:146:10)]]></failure>
+    </testcase>
+    <testcase name="Basic tests Hardware Form It gives me some options to choose computer in Select Hardware" time="0.0000" classname="It gives me some options to choose computer in Select Hardware">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `[data-cy=macBtn]`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `[data-cy=macBtn]`, but never found it.
+    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/integration/basic_tests.js:152:10)]]></failure>
+    </testcase>
+    <testcase name="Basic tests Hardware Form Collects correct input data from hardware inputform" time="0.0000" classname="Collects correct input data from hardware inputform">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `[data-cy=macBtn]`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `[data-cy=macBtn]`, but never found it.
+    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/integration/basic_tests.js:156:10)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Profile Info" timestamp="2022-04-05T07:05:56" tests="2" time="8.7090" failures="2">
+    <testcase name="Basic tests Profile Info Renders the profile info form" time="0.0000" classname="Renders the profile info form">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `[data-cy=ProfileContactForm]`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `[data-cy=ProfileContactForm]`, but never found it.
+    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/integration/basic_tests.js:166:46)]]></failure>
+    </testcase>
+    <testcase name="Basic tests Profile Info Collects correct input data from form" time="0.0000" classname="Collects correct input data from form">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `[data-cy=nameInput]`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `[data-cy=nameInput]`, but never found it.
+    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/integration/basic_tests.js:177:10)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Ice Contact Form" timestamp="2022-04-05T07:06:04" tests="2" time="8.8470" failures="2">
+    <testcase name="Basic tests Ice Contact Form Renders the ICE form" time="0.0000" classname="Renders the ICE form">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `[data-cy=IceContactForm]`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `[data-cy=IceContactForm]`, but never found it.
+    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/integration/basic_tests.js:198:42)]]></failure>
+    </testcase>
+    <testcase name="Basic tests Ice Contact Form Collects correct input from form" time="0.0000" classname="Collects correct input from form">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `[data-cy=iceName]`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `[data-cy=iceName]`, but never found it.
+    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/integration/basic_tests.js:205:10)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Github Form" timestamp="2022-04-05T07:06:13" tests="2" time="8.6570" failures="2">
+    <testcase name="Basic tests Github Form Renders Github form" time="0.0000" classname="Renders Github form">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `[data-cy=githubForm]`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `[data-cy=githubForm]`, but never found it.
+    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/integration/basic_tests.js:219:38)]]></failure>
+    </testcase>
+    <testcase name="Basic tests Github Form Skips to next step" time="0.0000" classname="Skips to next step">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `[data-cy=githubSkip]`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `[data-cy=githubSkip]`, but never found it.
+    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/integration/basic_tests.js:223:10)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,8 @@
+FROM node:12-alpine as build
+WORKDIR /app
+COPY FE/package.json /app
+COPY FE/yarn.lock /app
+RUN yarn install
+COPY FE /app
+RUN mkdir /result
+CMD ["sh", "-c", "yarn build && tar -cvf /app/result/build.tar.gz ./build"]
